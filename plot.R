@@ -15,3 +15,7 @@ titanicData<- as.data.frame(Titanic) #convert atomic vector into dataframe for u
 
 table(titanicData$Survived, titanicData$Class)  #table showing how many survived per each class
  barplot(table(titanicData$Survived, titanicData$Age)) #barplot showing how many survived by age group
+View(women)
+
+hairEyeColorData <- as.data.frame(HairEyeColor)
+hist(airquality$Ozone)
